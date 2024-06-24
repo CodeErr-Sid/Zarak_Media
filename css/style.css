@@ -463,6 +463,31 @@ img:not([draggable]), embed, object, video{
     max-width: var(--container-width);
     padding: 0 30px;
 }
+
+/* custom sections */
+
+.outer-section-w{
+    background-color: white;
+}
+
+.outer-section-b{
+    background-color: var(--zarak-blue);
+}
+
+.inner-section{
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+}
+
+.glassmorphism-nav{
+    background: rgb(15 39 73 / 72%);
+    -webkit-backdrop-filter: blur(34px);
+    backdrop-filter: blur(34px);
+    border: 1px solid rgba(12, 37, 68, 0.1);
+}
+
+/* custom sections */
+
 .row:not(
 .g-0, .g-1, .g-2, .g-3, .g-4, .g-5,
 .gx-0, .gx-1, .gx-2, .gx-3, .gx-4, .gx-5,
@@ -3540,7 +3565,7 @@ a.logo:hover{
     left: 0;
     text-align: left;
     /* background: rgba(255,255,255, .98); */
-    background: var(--zarak-blue) ;
+    /* background: var(--zarak-blue) ; */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.025),0px 1px 1px 0px rgba(0, 0, 0, 0.01),0px 0px 50px 0px rgba(0, 0, 0, 0.07);
     z-index: 1030;
     transition: all 0.2s var(--ease-default);
@@ -5321,6 +5346,18 @@ a.logo:hover{
       transform: translate3d(-50%,0,0);
   }
 }
+.marquee-animation-1b{   
+    animation: marquee-animation-1b 30s linear infinite;
+    will-change: transform;
+}
+@keyframes marquee-animation-1b {
+  0%{
+      transform: translate3d(0,0,0);
+  }
+  100%{
+      transform: translate3d(-50%,0,0);
+  }
+}
 .marquee-animation-2{
     animation: marquee-animation-2 80s linear infinite;
     will-change: transform;
@@ -5401,6 +5438,22 @@ a.logo:hover{
     transform: rotate(-5deg);
 }
 .marquee-style-3 .marquee-track > div{
+   padding-right: 0.5em; 
+}
+
+.marquee-style-3a{
+    width: 100%;
+    /* margin-left: -10%; */
+    padding: 33px 0;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 0.92;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--color-dark-1);
+}
+.marquee-style-3a .marquee-track > div{
    padding-right: 0.5em; 
 }
 .light-content .marquee-style-3{
@@ -5506,6 +5559,11 @@ a.logo:hover{
 /* ==============================
    Services
    ============================== */
+
+#services{
+    padding: 75px var(--section-padding-y);
+}
+
 
 .services-tabs{
     display: block;
