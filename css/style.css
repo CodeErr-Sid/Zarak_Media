@@ -179,8 +179,7 @@ Primary use: Multipurpose Template
     --menu-bar-height: 85px;
     --menu-bar-height-scrolled: 65px;
     /*  */
-    --zarak-blue: #0f2749;
-    --zarak-blue-dark:#0C2544;
+    --zarak-blue: #0C2544;
     --zarak-gold: #AE8A56;
     /*  */
     --color-dark-1: #010101;
@@ -421,12 +420,12 @@ img:not([draggable]), embed, object, video{
 .parallax-mousemove-follow{
     -moz-transition: none !important;
 }
-@media not all and (min-resolution:.001dpcm) { @media {
+@media not all and (min-resolution:.001dpcm) {
     .parallax-mousemove,
     .parallax-mousemove-follow{
        transition: none !important;
     }
-}}
+}
 [data-rellax-x]{
     transition: transform 0.25s var(--ease-out-short);
     transition-delay: 0.0025s;
@@ -465,6 +464,21 @@ img:not([draggable]), embed, object, video{
 }
 
 /* custom sections */
+
+.gold-font{
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+               #cb9b51 22%, 
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+        );
+       color:transparent;
+       -webkit-background-clip:text;
+}
 
 .outer-section-w{
     background-color: white;
