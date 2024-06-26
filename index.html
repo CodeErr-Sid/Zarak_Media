@@ -5,7 +5,7 @@
     <title>Zarak Media | Home</title>
     <meta name="description" content="Resonance — One &amp; Multi Page Creative Template">
     <meta charset="utf-8">
-    <meta name="author" content="https://themeforest.net/user/bestlooker/portfolio">
+    <meta name="primesite" content="https://themeforest.net/user/bestlooker/portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
@@ -13,6 +13,7 @@
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-responsive.css">
@@ -22,7 +23,8 @@
     <link rel="stylesheet" href="css/splitting.css">
     <link rel="stylesheet" href="css/YTPlayer.css">
     <link rel="stylesheet" href="css/demo-modern.css">
-
+    
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -182,8 +184,9 @@
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
 
-                            <div class="section-descr-extralarge mb-100 mb-md-60 wow linesAnimIn"
-                                data-splitting="lines">
+                            <div class="section-descr-extralarge mb-100 mb-md-60 wow linesAnimIn reveal-type"
+                                data-bg-color="gray" data-fg-color="#000"
+                                >
                                 <h2 class="section-title-inline-1">About Studio</h2>
                                 Jane Garsia Studio is an independent full-service studio creating awesome digital
                                 experiences and solutions. We are an award winning group specializing in branding,
@@ -193,7 +196,7 @@
                             <!-- Accordion -->
                             <dl class="accordion-1 accordion-1-slick mb-100 mb-md-60 color-primary-dark">
                                 <dt>
-                                    <a href="#"><span>Our Story</span> <i class="icon-plus"></i></a>
+                                    <a href="#"><span>Our Approach</span> <i class="icon-plus"></i></a>
                                 </dt>
                                 <dd>
                                     <div class="row">
@@ -215,7 +218,7 @@
                                         </div>
                                     </div>
                                 </dd>
-                                <dt>
+                                <!-- <dt>
                                     <a href="#"><span>Our Mission</span> <i class="icon-plus"></i></a>
                                 </dt>
                                 <dd>
@@ -234,7 +237,7 @@
                                             solutions that not only meet but exceed their expectations.
                                         </div>
                                     </div>
-                                </dd>
+                                </dd> -->
                             </dl>
                             <!-- End Accordion -->
 
@@ -242,7 +245,7 @@
                                     <a href="modern-about.html" class="btn btn-mod btn-w btn-ellipse white" data-btn-animate="ellipse">Learn more <span class="visually-hidden">about us</span></a>
                                 </div> -->
 
-                            <div class="page-section pb-0" id="established">
+                            <!-- <div class="page-section pb-0" id="established">
                                 <div class="position-relative text-center pt-140 pt-sm-100 pb-140 pb-sm-100">
                                     <div class="position-relative z-index-1">
                                         <h2 class="hs-title-5 font-alt overflow-hidden mb-60 mb-sm-40 color-zarak-gold">
@@ -262,7 +265,7 @@
                                             alt="Image Description">
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -276,15 +279,19 @@
             <section class="outer-section-w">
                 <div class="marquee marquee-style-3a mb-md-0 z-index-1 zarak-blue inner-section">
                     <div class="marquee-track marquee-animation-1b">
-                        <div aria-hidden="true">Our</div>
-                        <div aria-hidden="true">Services</div>
-                        <div aria-hidden="true">Our</div>
-                        <div aria-hidden="true">Services</div>
-                        <div aria-hidden="true">Our</div>
-                        <div aria-hidden="true">Services</div>
-                        <div aria-hidden="true">Our</div>
-                        <div aria-hidden="true">Services</div>
-                        <div aria-hidden="true">Our</div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+
                     </div>
                 </div>
             </section>
@@ -324,7 +331,7 @@
                             <!-- End Services Item -->
 
                             <!-- Services Item -->
-                            <h3 class="services-4-item text-center parallax-mousemove-scene wow fadeInUp">
+                            <h3 class="services-4-item text-end parallax-mousemove-scene wow fadeInUp">
                                 <span
                                     class="services-4-title hs-title-5 font-alt overflow-hidden">Advertise<b>02</b></span>
                                 <span class="services-4-image parallax-mousemove-follow">
@@ -335,9 +342,9 @@
                             <!-- End Services Item -->
 
                             <!-- Services Item -->
-                            <h3 class="services-4-item text-center parallax-mousemove-scene wow fadeInUp">
+                            <h3 class="services-4-item text-start parallax-mousemove-scene wow fadeInUp">
                                 <span
-                                    class="services-4-title hs-title-5 font-alt overflow-hidden">Content<b>03</b></span>
+                                    class="services-4-title hs-title-5 font-alt overflow-hidden">Photography<b>03</b></span>
                                 <span class="services-4-image parallax-mousemove-follow">
                                     <img src="images/3.jpg" loading="lazy" width="550" height="673"
                                         alt="Image Description">
@@ -346,7 +353,7 @@
                             <!-- End Services Item -->
 
                             <!-- Services Item -->
-                            <h3 class="services-4-item text-center parallax-mousemove-scene wow fadeInUp">
+                            <h3 class="services-4-item text-end parallax-mousemove-scene wow fadeInUp">
                                 <span
                                     class="services-4-title hs-title-5 font-alt overflow-hidden">Development<b>04</b></span>
                                 <span class="services-4-image parallax-mousemove-follow">
@@ -357,9 +364,9 @@
                             <!-- End Services Item -->
 
                             <!-- Services Item -->
-                            <h3 class="services-4-item text-center parallax-mousemove-scene wow fadeInUp">
+                            <h3 class="services-4-item text-start parallax-mousemove-scene wow fadeInUp">
                                 <span
-                                    class="services-4-title hs-title-5 font-alt overflow-hidden">Events<b>05</b></span>
+                                    class="services-4-title hs-title-5 font-alt overflow-hidden">content<b>05</b></span>
                                 <span class="services-4-image parallax-mousemove-follow">
                                     <img src="images/5.jpg" loading="lazy" width="550" height="673"
                                         alt="Image Description">
@@ -370,7 +377,7 @@
                             <!-- Services Item -->
                             <h3 class="services-4-item text-center parallax-mousemove-scene wow fadeInUp">
                                 <span
-                                    class="services-4-title hs-title-5 font-alt overflow-hidden">Photography<b>05</b></span>
+                                    class="services-4-title hs-title-5 font-alt overflow-hidden">events<b>05</b></span>
                                 <span class="services-4-image parallax-mousemove-follow">
                                     <img src="images/5.jpg" loading="lazy" width="550" height="673"
                                         alt="Image Description">
@@ -409,7 +416,7 @@
                 <section class="page-section zarak-blue white inner-section" id="portfolio">
                     <div class="container">
 
-                        <div class="mb-100 mb-md-40">
+                        <!-- <div class="mb-100 mb-md-40">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <h2 class="section-caption mb-0 mb-xs-10 black">Portfolio</h2>
@@ -421,17 +428,15 @@
                                 </div>
                             </div>
                             <hr class="white mt-3 mb-0 ">
-                        </div>
+                        </div> -->
 
                         <div class="row">
-                            <div class="col-10 col-sm-9">
+                            <div>
                                 <h3 class="hs-title-5 font-alt overflow-hidden mb-100 mb-md-40">
                                     <span class="d-block wow fadeRotateIn gold-font">
-                                        Selected
+                                        Selected Works
                                     </span>
-                                    <span class="d-block text-end wow fadeRotateIn gold-font">
-                                        Works
-                                    </span>
+                                    
                                 </h3>
                             </div>
                         </div>
@@ -824,6 +829,11 @@
 
     </div>
     <!-- End Page Wrap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+	<script src="https://unpkg.com/split-type"></script>
+	<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 
     <!-- JS -->
     <script src="js/jquery.min.js"></script>

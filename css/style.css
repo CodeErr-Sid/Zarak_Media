@@ -523,6 +523,12 @@ img:not([draggable]), embed, object, video{
     transform: translate(-50%, -50%);
 }
 
+@media screen and (0 < width <=768px){
+    .Cursor{
+        display: none;
+    }
+}
+
 /* custom sections */
 
 .row:not(
@@ -5597,9 +5603,7 @@ a.logo:hover{
    Services
    ============================== */
 
-#services{
-    padding: 75px var(--section-padding-y);
-}
+
 
 
 .services-tabs{

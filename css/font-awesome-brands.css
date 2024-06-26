@@ -154,6 +154,9 @@
 .fa-stack-overflow:before {
   content: "\e929";
 }
+.fa-star:before{
+  font-family:"Font Awesome 6 Free" ;
+}
 .fa-steam:before {
   content: "\e92a";
 }
