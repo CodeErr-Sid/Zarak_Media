@@ -1839,7 +1839,7 @@ gsap.registerPlugin(ScrollTrigger)
                 },
                 {
                     color: fg,
-                    duration: 0.1,
+                    duration: 0.6,
                     stagger: 0.02,
                     scrollTrigger: {
                         trigger: char,
