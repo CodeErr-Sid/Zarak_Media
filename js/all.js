@@ -46,8 +46,7 @@
      Page loader
      --------------------------------------------- */
     function init_loader(){   
-        $(".page-loader div").fadeOut();
-        $(".page-loader").delay(250).fadeOut("slow");
+        $(".page-loader").delay(9500).slideUp("linear");
     }
     
     
