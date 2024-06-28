@@ -170,7 +170,7 @@ Primary use: Multipurpose Template
    ============================== */
 
 :root {
-    --font-global: 'DM Sans', sans-serif;
+    --font-global-1: 'DM Sans', sans-serif;
     --font-alt: 'DM Sans', sans-serif;
     --font-serif: Georgia, 'Times New Roman', Times, serif;
     --full-wrapper-margin-x: 30px;
@@ -943,7 +943,7 @@ video {
 
 body {
     color: var(--color-dark-1);
-    font-family: var(--font-global);
+    font-family: var(--font-global-1);
     font-size: 18px;
     font-weight: 400;
     letter-spacing: normal;
@@ -10013,7 +10013,7 @@ a.portfolio-5-link:hover .portfolio-5-title span {
 }
 
 .work-process-description {
-    font-family: var(--font-global-alt);
+    font-family: var(--font-global-1-alt);
     font-size: 16px;
     font-weight: 400;
     /*500*/
