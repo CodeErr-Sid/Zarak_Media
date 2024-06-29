@@ -9,8 +9,8 @@
     font-display: block;
 }
 
-[class^="fa-"],
-[class*=" fa-"] {
+[class^="fa-"]:not(.fa-laptop-code):not(.fa-bullhorn):not(.fa-camera),
+[class*=" fa-"]:not(.fa-laptop-code):not(.fa-bullhorn):not(.fa-camera) {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'font-awesome-brands' !important;
     speak: never;
@@ -27,6 +27,14 @@
     display: inline-block;
     transform: rotate(0.003deg); 
 }
+
+.fa-laptop-code:before,
+.fa-bullhorn:before,
+.fa-camera:before,
+.fa-solid:before {
+    font-family: "Font Awesome 6 Free";
+}
+
 
 .fa-square-x-twitter:before {
   content: "\e900";

@@ -1,5 +1,8 @@
 
 /************************ * Animations infinites * ************************/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
 /* * Number Trembling */
 .tremble {
     animation: tremble 0.1s infinite;
@@ -17,9 +20,17 @@
 }
 /* * Objects */
 .object {
-    border: 2px solid #0C2544;
     position: absolute;
 }
+
+.pl-font-family-free{
+    font-family: "Font Awesome 6 Free"!important;
+}
+
+.object i{
+    font-size: 2rem;
+}
+
 .circle {
     border-radius: 50%;
 }
