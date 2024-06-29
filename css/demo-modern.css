@@ -103,8 +103,8 @@
 
 :root {
     --font-global: 'Inter', sans-serif;
-    --font-global-1: 'SourceSerifPro', sans-serif;
-    --font-alt: 'SourceSerifPro', sans-serif;
+    --font-global-1: 'Inter', sans-serif;
+    --font-alt: 'Inter', sans-serif;
     --container-width: 1420px;
     --section-padding-y: 180px;
     --color-dark-1: #010101;
