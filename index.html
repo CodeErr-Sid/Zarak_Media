@@ -25,18 +25,46 @@
     <link rel="stylesheet" href="css/YTPlayer.css">
     <link rel="stylesheet" href="css/demo-modern.css">
 
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/custom-animation.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
 
+
 </head>
 
 <body class="appear-animate">
 
+       <!-- pre loader area start -->
+   <div id="loading" class="preloader-wrap">
+    <div class="preloader-2 text-center">
+       <span class="line line-1"></span>
+       <span class="line line-2"></span>
+       <span class="line line-3"></span>
+       <span class="line line-4"></span>
+       <span class="line line-5"></span>
+       <span class="line line-6"></span>
+       <span class="line line-7"></span>
+       <span class="line line-8"></span>
+       <span class="line line-9"></span>
+       <div class="loader-text">Loading ...</div>
+    </div>
+ </div>
+ <!-- pre loader area end -->
+
     <!-- Page Loader -->
-    <div class="page-loader">
+    <!-- <div class="page-loader">
         <div class="letters">
             <span class="fall--1"><span class="bfall--1">
                     <span class="plonge--1">
@@ -138,7 +166,7 @@
         <div id="replay">
             <img src="img/logo/zarak_media-removebg-preview.png" alt="">
         </div>
-    </div>
+    </div> -->
     <!-- End Page Loader -->
 
     <!-- Skip to Content -->
@@ -152,62 +180,69 @@
     <!-- Page Wrap -->
     <div class="page" id="top">
 
-        <!-- Navigation Panel -->
-        <nav class="main-nav  stick-fixed wow-menubar  glassmorphism-nav">
-            <div class="main-nav-sub full-wrapper">
 
-                <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
-                    If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
-                    image size for support of retina screens. See details in the template documentation. *) -->
-                <div class="nav-logo-wrap local-scroll">
-                    <a href="index.html" class="logo">
-                        <img src="img/logo/zarak_media-removebg-preview.png" alt="Your Company Logo"
-                            style="height: auto; width: 100%;">
-                    </a>
+
+ 
+
+
+ <header class="tp-header-height z-index-5" style="height: 0px !important;">
+
+    <!-- header top area start -->
+    <div id="header-sticky" class="tp-inner-header-area tp-inner-header-style-2 " style="  background: rgba(12, 37, 68, 0.6); /* #0C2544 color with 60% opacity */
+  backdrop-filter: blur(10px); /* Adds blur effect */ color: white;">
+       <div class="container container-1800">
+          <div class="row align-items-center sid-row" >
+             <div class="col-xl-2 col-lg-6 col-md-6 col-6">
+                <div class="tp-inner-header-logo tp-header-logo">
+                   <a class="logo-1" href="index.html"><img src="img/logo/zarak_media-removebg-preview.png" alt=""></a>
+                   <a class="logo-2" href="index.html"><img src="img/logo/zarak_media-removebg-preview.png" alt=""></a>
                 </div>
-
-                <!-- Mobile Menu Button -->
-                <div class="mobile-nav" role="button" tabindex="0">
-                    <i class="mobile-nav-icon"></i>
-                    <span class="visually-hidden">Menu</span>
-                </div>
-
-                <!-- Main Menu -->
-                <div class="inner-nav desktop-nav">
-                    <ul class="clearlist local-scroll justify-content-end">
-                        <li><a href="modern-multi-page.html" class="active" data-btn-animate="y">Home</a></li>
-                        <li><a href="modern-about.html" data-btn-animate="y">Bradning & Design</a></li>
-                        <li><a href="modern-services.html" data-btn-animate="y">Content Production</a></li>
-                        <li><a href="modern-portfolio.html" data-btn-animate="y">Consult</a></li>
-                        <!-- <li><a href="modern-blog.html" data-btn-animate="y">Blog</a></li>
-                            <li><a href="modern-contact.html" data-btn-animate="y">Contact</a></li> -->
-
-                        <!-- <li class="desktop-nav-display">
-                                <div class="vr"></div>
+             </div>
+             <div class="col-xl-8 col-lg-8 d-none d-xl-block">
+                <div class="tp-inner-header-right-wrap text-center">
+                   <div class="tp-inner-header-menu header-main-menu">
+                      <nav class="tp-main-menu-content">
+                         <ul>
+                            <li class="has-dropdown">
+                               <a href="index.html">Home</a>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="production.html">Production</a>
+                             </li>
+                            <li class="has-dropdown">
+                               <a href="design.html">Design</a>
+                            </li>
+                            <li class="has-dropdown">
+                               <a href="events&studio.html">Events & Studio</a>
+                            </li>
+                            <!-- <li class="has-dropdown">
+                               <a href="contact.html">Contact</a>
                             </li> -->
-
-                        <!-- Languages -->
-                        <!-- <li>
-                                <a href="#" class="mn-has-sub opacity-1" data-btn-animate="y">En <i class="mi-chevron-down"></i></a>
-                                
-                                <ul class="mn-sub to-left">                                    
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">French</a></li>
-                                    <li><a href="#">German</a></li>                                    
-                                </ul>
-                                
-                            </li> -->
-                        <!-- End Languages -->
-
-                        <!-- <li><a href="//1.envato.market/R5abDb" target="_blank" rel="nofollow noopener" class="opacity-1 no-hover"><span class="btn btn-mod btn-border btn-small btn-circle" data-btn-animate="y">Buy Template</span></a></li> -->
-                    </ul>
-
+                         </ul>
+                      </nav>
+                   </div>
                 </div>
-                <!-- End Main Menu -->
+             </div>
+             <div class="col-xl-2 col-lg-6 col-md-6 col-6">
+                <div class="tp-inner-header-right-action text-end">
+                   
+                    <button class="sid-learn-more" onclick="window.location.href='contact.html'">
+                        <span class="sid-circle" aria-hidden="true">
+                          <span class="sid-icon sid-arrow"></span>
+                        </span>
+                        <span class="sid-button-text" >Contact</span>
+                      </button>
+                      
+                     
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- header top area end -->
 
-            </div>
-        </nav>
-        <!-- End Navigation Panel -->
+ </header>
+ 
 
         <main id="main">
 
@@ -260,12 +295,12 @@
 
                     <!-- Social Media Links -->
                     <div class="hs-social left wow fadeInUp" data-wow-offset="0">
-                        <a href="#" class="hs-social-link"><span class="visually-hidden">Instagram</span><i
-                                class="fa-instagram gold-font"></i></a>
-                        <a href="#" class="hs-social-link"><span class="visually-hidden">Twitter</span><i
-                                class="fa-twitter gold-font"></i></a>
                         <a href="#" class="hs-social-link"><span class="visually-hidden">Facebook</span><i
-                                class="fa-facebook-f gold-font"></i></a>
+                                class="fa-facebook gold-font"></i></a>
+                        <a href="#" class="hs-social-link"><span class="visually-hidden">Linked-In</span><i
+                                class="fa-linkedin gold-font"></i></a>
+                        <!-- <a href="#" class="hs-social-link"><span class="visually-hidden">Facebook</span><i
+                                class="fa-facebook-f gold-font"></i></a> -->
                     </div>
                     <!-- End Social Media Links -->
 
@@ -287,7 +322,7 @@
                         <div class="col-lg-10 offset-lg-1">
 
                             <div class="section-descr-extralarge mb-100 mb-md-60 wow linesAnimIn reveal-type"
-                                data-bg-color="gray" data-fg-color="#000">
+                                data-bg-color="" data-fg-color="#000">
                                 <h2 class="section-title-inline-1">About Studio</h2>
                                 Jane Garsia Studio is an independent full-service studio creating awesome digital
                                 experiences and solutions. We are an award winning group specializing in branding,
@@ -392,6 +427,21 @@
                         <div aria-hidden="true" class="gold-font">Our</div>
                         <div aria-hidden="true" class="gold-font">Services</div>
                         <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
+                        <div aria-hidden="true" class="gold-font">Our</div>
+                        <div aria-hidden="true" class="gold-font">Services</div>
+                        <div aria-hidden="true"><i class="fa-regular fa-star gold-font"></i></div>
 
                     </div>
                 </div>
@@ -418,7 +468,7 @@
                              </div> -->
 
                         <!-- Services Grid -->
-                        <div class="mb-100 mb-md-40">
+                        <div class="mb-100 mb-md-40" style="color: #0C2544;">
 
                             <!-- Services Item -->
                             <h3 class="services-4-item text-center parallax-mousemove-scene wow fadeInUp">
@@ -543,7 +593,7 @@
                         </div>
 
                         <!-- Portfolio Grid -->
-                        <div class="mb-n100 mb-md-n60 mb-sm-n40">
+                        <div class="mb-n100 mb-md-n60 mb-sm-n40" id="white-span">
 
                             <!-- Portfolio Item -->
                             <div class="mb-100 mb-md-60 mb-sm-40">
@@ -697,7 +747,7 @@
 
                             <div class="col-lg-5 zm-c-content">
                                 <h1 class="display-4 fw-bold lh-1 mb-3 zm-client-heading reveal-type"
-                                    data-bg-color="gray" data-fg-color="#0C2544">
+                                    data-bg-color="" data-fg-color="#0C2544">
                                     We Build Best <br> Design for your <br>
                                     company
                                 </h1>
@@ -709,15 +759,18 @@
                             </div>
                             <div class="col-11 col-lg-7 c-logo">
                                 <div class="row c-row">
-                                    <div class="col-sm c-row-item "><img src="images/c-hilti.png" alt=""></div>
-                                    <div class="col-sm c-row-item "><img src="images/c-jashanmal-1024x241.png" alt="">
+                                    <div class="col-sm c-row-item "><img src="img/clients/Hilti_Logo.jpg" alt=""></div>
+                                    <div class="col-sm c-row-item "><img src="img/clients/Jashanmal.jpg" alt="">
                                     </div>
-                                    <div class="col-sm c-row-item "><img src="images/c-sc.png" alt=""></div>
+                                    <div class="col-sm c-row-item "><img src="img/clients/scent_connection.jfif" alt=""></div>
                                 </div>
                                 <div class="row c-row">
-                                    <div class="col-sm c-row-item "><img src="images/c-sharaf-dg.png" alt=""></div>
-                                    <div class="col-sm c-row-item "><img src="images/c-rmf.png" alt=""></div>
-                                    <div class="col-sm c-row-item "><img src="images/c-predator.png" alt=""></div>
+                                    <div class="col-sm c-row-item "><img src="img/clients/sharaf_dg.png" alt=""></div>
+                                    <div class="col-sm c-row-item "><img src="img/clients/predator.png" alt=""></div>
+                                    
+                                    <div class="col-sm c-row-item "><img src="img/clients/rathhat.webp" alt=""></div>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
@@ -786,13 +839,13 @@
                                                 <span class="visually-hidden">Facebook</span> <i
                                                     class="fa-facebook-f gold-font"></i>
                                             </a>
-                                            <a href="#" class="hs-social-link d-inline-flex me-1">
+                                            <!-- <a href="#" class="hs-social-link d-inline-flex me-1">
                                                 <span class="visually-hidden">Twitter</span> <i
-                                                    class="fa-twitter gold-font"></i>
+                                                    class="fa-twitter gold-font"></i> -->
                                             </a>
                                             <a href="#" class="hs-social-link d-inline-flex">
                                                 <span class="visually-hidden">Instagram</span> <i
-                                                    class="fa-instagram gold-font"></i>
+                                                    class="fa-linkedin gold-font"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -837,9 +890,12 @@
 
                                             <div class="col-xs-4 col-lg-6 mb-md-30">
                                                 <!-- Send Button -->
-                                                <button class="submit_btn btn btn-mod btn-ellipse"
+                                                <!-- <button class="submit_btn btn btn-mod btn-ellipse"
                                                     data-btn-animate="ellipse" id="submit_btn"
-                                                    aria-controls="result">Send Message</button>
+                                                    aria-controls="result">Send Message</button> -->
+
+                                                    <button class="zrk-Btn"></button>
+
                                             </div>
 
                                             <div class="col-xs-8 col-lg-6 d-flex align-items-center">
@@ -941,7 +997,7 @@
     <!-- End Page Wrap -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
     <script src="https://unpkg.com/split-type"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 
@@ -955,6 +1011,34 @@
     <script src="js/cursor-animation.js"></script>
     <script src="js/all.js"></script>
     <!-- End JS -->
+
+
+    <!-- <script src="assets/js/vendor/jquery.js"></script> -->
+    <script src="assets/js/bootstrap-bundle.js"></script>
+ 
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+    <script src="assets/js/gsap-scroll-smoother.js"></script>
+    <!-- <script src="assets/js/gsap-scroll-trigger.js"></script> -->
+    <script src="assets/js/gsap-split-text.js"></script>
+    <script src="assets/js/chroma.min.js"></script>
+ 
+    <script src='assets/js/three.js'></script>
+    <script src='assets/js/tween-max.js'></script>
+    <!-- <script src='assets/js/scroll-magic.js'></script> -->
+ 
+    <script src="assets/js/range-slider.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/purecounter.js"></script>
+    <script src="assets/js/beforeafter.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/webgl.js"></script>
+    <script src="assets/js/main.js"></script>
 
 
 </body>

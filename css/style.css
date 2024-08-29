@@ -754,7 +754,7 @@ video {
 /* clients */
 
 .c-logo img {
-    filter: invert(1);
+    /* filter: invert(1); */
     width: 100%;
 }
 
@@ -948,6 +948,10 @@ body {
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1.67;
+}
+
+#white-span span{
+    color: white !important;
 }
 
 a {
@@ -1477,6 +1481,7 @@ hr.thick {
     line-height: 0.92;
     letter-spacing: normal;
     text-transform: uppercase;
+    color: var(--zarak-blue);
 }
 
 .hs-title-6 {
@@ -3348,7 +3353,8 @@ textarea:-webkit-autofill:focus {
     width: 30px;
     height: 30px;
     margin-top: 8px;
-    font-size: 16px;
+    margin: 10px;
+    font-size: 35px;
     color: var(--color-white);
     text-decoration: none;
     /* border: 1px solid white; */
@@ -6481,8 +6487,8 @@ a.logo:hover {
 .marquee-style-3a {
     width: 100%;
     /* margin-left: -10%; */
-    padding: 33px 0;
-    font-size: 80px;
+    padding: 25px 0;
+    font-size: 30px;
     font-weight: 600;
     line-height: 0.92;
     letter-spacing: 0.02em;
@@ -14515,3 +14521,161 @@ html:not(.mobile) .owl-animate-fadeInDown {
 .zarak-gold {
     background-color: var(--zarak-gold) !important;
 }
+
+/* sidd */
+
+/* From Uiverse.io by vinodjangid07 */
+.zrk-Btn {
+    margin-left: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+  
+  .zrk-Btn::before {
+    position: absolute;
+    content: "Send Now";
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+  }
+  
+  .zrk-Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .zrk-Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .zrk-Btn:active {
+    transform: scale(0.95);
+  }
+  
+
+/*  */
+
+/* Base button styles */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  /* Styles specific to the learn-more button */
+  button.sid-learn-more {
+    width: 10rem;
+    height: auto;
+  }
+  
+  /* Circle styles */
+  button.sid-learn-more .sid-circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #AE8A56; /* Updated background color */
+    border-radius: 1.625rem;
+  }
+  
+  /* Icon styles */
+  button.sid-learn-more .sid-circle .sid-icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+  }
+  
+  /* Arrow icon styles */
+  button.sid-learn-more .sid-circle .sid-icon.sid-arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+  }
+  
+  button.sid-learn-more .sid-circle .sid-icon.sid-arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+  }
+  
+  /* Button text styles */
+  button.sid-learn-more .sid-button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: var(--zarak-gold); /* Updated text color */
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Hover effects */
+  button.sid-learn-more:hover .sid-circle {
+    width: 100%;
+  }
+  
+  button.sid-learn-more:hover .sid-circle .sid-icon.sid-arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+  }
+  
+  button.sid-learn-more:hover .sid-button-text {
+    color: #fff;
+  }
+  /*  */
+
+  .sid-row::before {
+    content: ''; 
+    display: block;
+    margin-top: -22px !important;
+    margin-bottom: -20px !important;
+  }
+  
